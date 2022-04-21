@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #C0D8C0;
+}
+.logo-chef {
+    width: 100%;
+}
+
+.logo-chef img {
+    display: block;
+    margin: auto;
+}
