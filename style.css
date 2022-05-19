@@ -4,13 +4,21 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #C0D8C0;
-}
-.logo-chef {
-    width: 100%;
+    background-color: black;
+    background-image:url(images/bg-drink.jpg);
+    background-repeat: no-repeat;
 }
 
-.logo-chef img {
-    display: block;
-    margin: auto;
+
+.manual {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.manual h1 {
+    font-size: 5rem;
+    font-weight: 700;
 }
